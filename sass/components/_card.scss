@@ -161,7 +161,8 @@
 
 
 
-
+// on every Mobile devices - remove hover effects on cards
+// if only screen and (hover: none) -> this mean user use device with primary touch /no hover effect/
 
     // @include respond(tab-port) {
     @media only screen and (max-width: 56.25em),
