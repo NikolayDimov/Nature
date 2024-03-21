@@ -39,3 +39,9 @@ body {
         padding: 0;
     }
 }
+
+// Select text with mouse - colored in green
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
